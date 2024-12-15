@@ -56,8 +56,6 @@ This project focuses on performing sentiment analysis on Google Play Store revie
 
 - Removed duplicate and irrelevant entries.
 - Handled missing values.
-- Standardized text formatting and removed special characters, emojis, and URLs from the reviews.
-- Tokenized the text for sentiment analysis.
 
 ## Sentiment Analysis
 
@@ -81,13 +79,6 @@ This project focuses on performing sentiment analysis on Google Play Store revie
 - Time-series trends of review sentiment.
 - Bar charts comparing the average `thumbsUpCount` for different sentiments.
 
-## Key Insights
-
-- Instagram had the highest percentage of positive reviews but also a notable number of negative comments about ads.
-- Reddit reviews frequently mentioned issues related to UI and performance.
-- X showed polarized opinions, with many praising its utility but criticizing recent changes.
-- Snapchat reviews highlighted features like filters and performance concerns.
-
 ## Project Workflow
 
 1. Data scraping using `google-play-scraper`.
@@ -102,34 +93,14 @@ This project focuses on performing sentiment analysis on Google Play Store revie
 │   ├── raw_data
 │   ├── cleaned_data
 ├── notebooks
-│   ├── data_scraping.ipynb
-│   ├── data_cleaning.ipynb
-│   ├── sentiment_analysis.ipynb
-│   ├── eda.ipynb
-├── visualizations
-│   ├── sentiment_charts
-│   ├── rating_distributions
-├── src
-│   ├── scraper.py
-│   ├── cleaning.py
-│   ├── sentiment_analysis.py
-│   ├── eda.py
+│   ├── BDA.ipynb
+│   ├── Analysis.ipynb
 ├── README.md
 ```
 
 ## How to Run the Project
 
 1. Clone the repository.
-2. Install dependencies using `pip install -r requirements.txt`.
-3. Run the scripts or notebooks in the `notebooks` folder.
+2. Run the scripts or notebooks in the `notebooks` folder.
 
-## Future Enhancements
-
-- Implement more advanced NLP models like BERT for sentiment classification.
-- Include reviews from additional apps for broader insights.
-- Explore aspect-based sentiment analysis.
-
-## Authors
-
-Gopal and Team
 
