@@ -94,7 +94,7 @@ This project focuses on performing sentiment analysis on Google Play Store revie
 │   ├── cleaned_data
 ├── notebooks
 │   ├── BDA.ipynb
-│   ├── Analysis.ipynb
+│   ├── Graphs and Visualizations.ipynb
 ├── README.md
 ```
 
